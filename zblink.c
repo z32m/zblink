@@ -15,8 +15,6 @@ void th_zblink()
             k_msleep(50);
         }
         gpio_pin_set_dt(&ZBLINK_LED, 0);
-
         k_msleep(1000);
     }
 }
-
